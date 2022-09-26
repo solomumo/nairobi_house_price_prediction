@@ -35,7 +35,7 @@ Scrape property details of all listed houses in Nairobi from a leading real esta
 
 # Modelling
 1.	Plot correlation matrix of the features. 
-2.	Compute the z-scores to inform scaler choice – some scalers are sensitive to outliers. Outliers have a z-score of -3<z>3. 
+2.	Compute the z-scores to inform scaler choice – some scalers are sensitive to outliers. Outliers have a z-score of less than -3 or greater than 3. 
 3.	Split data to train and test using a .8:.2 ratio.
 4.	Initialize a random forest model without feature engineering (coordinates and distance from key areas) and assess performance.
 5.	Initialize a random forest model with feature engineering and using all features and assess performance.
